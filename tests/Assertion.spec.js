@@ -54,5 +54,5 @@ test ("Assertion Test",async({page})=>{
     await expect(dd).not.toHaveCount(5)
 
     await page.locator("#customerCurrency").click()
-    await page.close()
+    await page.close();
 })
